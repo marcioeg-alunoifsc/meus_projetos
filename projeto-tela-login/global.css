@@ -1,0 +1,38 @@
+body {
+
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+h1 {
+
+  font-family: "Libre Caslon Condensed", serif;
+  font-weight: bold;
+  text-align: center;
+  color: azure;
+  
+}
+
+form {
+
+    margin: 10%;
+    /*empilha e centraliza labels, caixas e botão no meio do formulário*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label {
+
+    color: azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+
+}
